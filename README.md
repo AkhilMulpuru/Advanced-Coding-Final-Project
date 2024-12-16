@@ -52,8 +52,11 @@ This application allows users to query the Cytochrome P450 database and view enz
 ## Troubleshooting
 - **404 Error**: Verify file paths and permissions.
 - **Internal Server Error**: Check the shebang line in the CGI script:
-```python
-#!/usr/local/bin/python3
+- dos2unix command on files
+- Renaming cytochrome_query.py to .cgi
+- Correcting file permissions
+- Setting the action path in HTML
+- Placing files in /var/www/html
 
 Credits
-Developed by Akhil Mulpuru   
+Developed by Akhil Mulpuru
